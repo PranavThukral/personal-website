@@ -10,3 +10,25 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .next-dev.*.log
+
+# Playwright screenshots and logs
+.playwright-mcp
+*.tsbuildinfo
+next-env.d.ts
+__pycache__/
+
+# Personal files that live in this folder but are not part of the website. Never publish these.
+deliverables/
+scripts/
+assets/
+*.ics
+context.md
+
+# Local AI tooling and notes
+CLAUDE.md
+.claude/
+.mcp.json
+
+# Legacy assets from the old site, no longer used (personal photos, an outdated résumé copy)
+public/photos/
+public/projects/
